@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majharul | Restaurant</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Tilt.js for 3D card effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+</head>
+<body class="bg-light">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-warning">Majharul</span> Restaurant
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="py-5 mt-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
+                    <h1 class="display-4 fw-bold text-dark mb-4">Experience <span class="text-warning">Fine Dining</span></h1>
+                    <p class="lead mb-4">Indulge in a culinary journey that awakens your senses with our exquisite dishes prepared by world-class chefs.</p>
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-dark btn-lg rounded-pill px-4" data-aos="zoom-in" data-aos-delay="300">Reserve Table</button>
+                        <button class="btn btn-outline-dark btn-lg rounded-pill px-4" data-aos="zoom-in" data-aos-delay="500">View Menu</button>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="card border-0 shadow-lg rounded-4 overflow-hidden js-tilt" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" class="img-fluid" alt="Restaurant Interior">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-5 bg-dark text-light">
+        <div class="container py-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold">Our <span class="text-warning">Signature Dishes</span></h2>
+                <p class="lead">Culinary masterpieces crafted with passion</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow js-tilt" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" class="card-img-top" alt="Food Item 1">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Mediterranean Salad</h5>
+                                <span class="badge bg-warning text-dark rounded-pill">$18</span>
+                            </div>
+                            <p class="card-text text-muted">Fresh greens, heirloom tomatoes, olives, and feta cheese with our signature olive oil dressing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow js-tilt" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" class="card-img-top" alt="Food Item 2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Artisan Pizza</h5>
+                                <span class="badge bg-warning text-dark rounded-pill">$24</span>
+                            </div>
+                            <p class="card-text text-muted">Wood-fired crust topped with San Marzano tomatoes, fresh mozzarella, and basil from our garden.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow js-tilt" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-glare data-tilt-max-glare="0.3">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" class="card-img-top" alt="Food Item 3">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Gourmet Burger</h5>
+                                <span class="badge bg-warning text-dark rounded-pill">$22</span>
+                            </div>
+                            <p class="card-text text-muted">Wagyu beef patty with caramelized onions, aged cheddar, and truffle aioli on a brioche bun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5" data-aos="fade-up">
+                <button class="btn btn-warning btn-lg rounded-pill px-4">View Full Menu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="card border-0 shadow-lg rounded-4 overflow-hidden js-tilt" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="1000">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5" class="img-fluid" alt="Restaurant Chef">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <h2 class="display-5 fw-bold mb-4">About <span class="text-warning">Us</span></h2>
+                    <p class="lead mb-4">Founded in 2010, Gourmet Haven has been serving exquisite cuisine in a warm and elegant atmosphere.</p>
+                    <p class="mb-4">Our team of passionate chefs sources only the finest ingredients, combining traditional techniques with modern innovation to create unforgettable dining experiences. We believe that great food brings people together and creates lasting memories.</p>
+                    <div class="row g-4 mt-3">
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-warning fs-4 me-2"></i>
+                                <span>Award-winning chefs</span>
+                            </div>
+                        </div>
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-warning fs-4 me-2"></i>
+                                <span>Locally sourced ingredients</span>
+                            </div>
+                        </div>
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-warning fs-4 me-2"></i>
+                                <span>Seasonal menu</span>
+                            </div>
+                        </div>
+                        <div class="col-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-check-circle-fill text-warning fs-4 me-2"></i>
+                                <span>Elegant atmosphere</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-5 bg-dark text-light">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5" data-aos="fade-up">
+                    <h2 class="display-5 fw-bold">Get In <span class="text-warning">Touch</span></h2>
+                    <p class="lead">We'd love to hear from you</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="card border-0 shadow-lg rounded-4 js-tilt" data-tilt data-tilt-max="5" data-tilt-speed="400" data-tilt-perspective="1000">
+                        <div class="card-body p-5">
+                            <form>
+                                <div class="mb-4" data-aos="fade-up" data-aos-delay="100">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control form-control-lg" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control form-control-lg" id="email" placeholder="Your Email">
+                                </div>
+                                <div class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control form-control-lg" id="message" rows="5" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="d-grid" data-aos="fade-up" data-aos-delay="400">
+                                    <button type="submit" class="btn btn-warning btn-lg">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-5 fw-bold">What Our <span class="text-warning">Guests Say</span></h2>
+                <p class="lead">Experiences from our valued customers</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow-lg p-4 rounded-4 js-tilt" data-tilt data-tilt-max="8" data-tilt-speed="400">
+                        <div class="d-flex justify-content-between mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-warning text-dark fw-bold d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">JD</div>
+                                <div class="ms-3">
+                                    <h6 class="fw-bold mb-0">John Doe</h6>
+                                    <small class="text-muted">Food Critic</small>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="bi bi-quote fs-1 text-warning opacity-50"></i>
+                            </div>
+                        </div>
+                        <p class="mb-0">The atmosphere and food quality at Gourmet Haven are unmatched. Every dish is a masterpiece of flavors and presentation.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow-lg p-4 rounded-4 js-tilt" data-tilt data-tilt-max="8" data-tilt-speed="400">
+                        <div class="d-flex justify-content-between mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-warning text-dark fw-bold d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">JS</div>
+                                <div class="ms-3">
+                                    <h6 class="fw-bold mb-0">Jane Smith</h6>
+                                    <small class="text-muted">Regular Customer</small>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="bi bi-quote fs-1 text-warning opacity-50"></i>
+                            </div>
+                        </div>
+                        <p class="mb-0">I've been coming here for years and the quality has never wavered. The staff is attentive and the menu is always exciting.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow-lg p-4 rounded-4 js-tilt" data-tilt data-tilt-max="8" data-tilt-speed="400">
+                        <div class="d-flex justify-content-between mb-4">
+                            <div class="d-flex align-items-center">
+                                <div class="rounded-circle bg-warning text-dark fw-bold d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">RJ</div>
+                                <div class="ms-3">
+                                    <h6 class="fw-bold mb-0">Robert Johnson</h6>
+                                    <small class="text-muted">Food Blogger</small>
+                                </div>
+                            </div>
+                            <div>
+                                <i class="bi bi-quote fs-1 text-warning opacity-50"></i>
+                            </div>
+                        </div>
+                        <p class="mb-0">The innovative menu and attention to detail make this restaurant stand out. Each visit is a new culinary adventure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <h5 class="fw-bold mb-3"><span class="text-warning">Gourmet</span> Haven</h5>
+                    <p class="mb-0">Elevating dining to an art form.</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <h5 class="fw-bold mb-3">Hours</h5>
+                    <p class="mb-1">Monday - Friday: 5pm - 11pm</p>
+                    <p class="mb-0">Saturday - Sunday: 12pm - 11pm</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <h5 class="fw-bold mb-3">Contact</h5>
+                    <p class="mb-1">123 Gourmet Street, Foodville</p>
+                    <p class="mb-1">Phone: (123) 456-7890</p>
+                    <p class="mb-3">Email: info@gourmethaven.com</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-warning fs-5"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-warning fs-5"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-warning fs-5"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Gourmet Haven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS animation
+        AOS.init({
+            once: false,
+            mirror: true,
+            duration: 800,
+            easing: 'ease-in-out'
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                }
+            });
+        });
+
+        // Initialize Vanilla Tilt for 3D card effects
+        VanillaTilt.init(document.querySelectorAll(".js-tilt"), {
+            max: 10,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.pageYOffset;
+            const heroSection = document.querySelector('#hero');
+            
+            if (heroSection) {
+                const heroOffset = heroSection.offsetTop;
+                const distance = scrollPosition - heroOffset;
+                
+                if (distance > -window.innerHeight && distance < window.innerHeight) {
+                    const parallaxElements = heroSection.querySelectorAll('.col-lg-6');
+                    parallaxElements[0].style.transform = `translateY(${distance * 0.1}px)`;
+                    parallaxElements[1].style.transform = `translateY(${distance * -0.1}px)`;
+                }
+            }
+        });
+
+        // Add active class to nav items when scrolling
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
